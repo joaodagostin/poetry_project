@@ -19,7 +19,7 @@ Para configurar o ambiente virtual e baixar as dependências:
 
 ```bash
 poetry install
-```
+``` 
 
 Para ativar o ambiente virtual (caso esteja utilizando a versão 2.0 ou superior):
 
