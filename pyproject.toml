@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyspark-delta-iceberg"
+version = "0.1.0"
+description = "Ambiente PySpark com Delta Lake e Apache Iceberg para demonstração de tabelas e operações DML"
+authors = ["Rafael"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.5.0"
+delta-spark = "^3.0.0"
+apache-iceberg = "0.0.1"
+jupyterlab = "^4.0.0"
+
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
